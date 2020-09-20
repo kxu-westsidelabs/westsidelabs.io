@@ -1,0 +1,9 @@
+name = "westsidelabs"
+type = "webpack"
+account_id = "f408c412ec37512b171d19c5047901b7"
+workers_dev = false
+route = "westsidelabs.io/*"
+zone_id = "a1c9425688a45401c7cdef1157fec073"
+
+[site]
+bucket = "./public"
