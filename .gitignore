@@ -1,4 +1,5 @@
 dist
 .DS_Store
+.cargo-ok
 jekyll-site/.jekyll-cache
 jekyll-site/_site
