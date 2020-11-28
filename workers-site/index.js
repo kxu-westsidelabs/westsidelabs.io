@@ -41,20 +41,7 @@ async function handleEvent(event) {
         bypassCache: true,
       }
     }
-
-    const page = await getAssetFromKV(event, options)
-
-    // allow headers to be altered
-    const response = new Response(page.body, page)
-
-    response.headers.set('X-XSS-Protection', '1; mode=block')
-    response.headers.set('X-Content-Type-Options', 'nosniff')
-    response.headers.set('X-Frame-Options', 'DENY')
-    response.headers.set('Referrer-Policy', 'unsafe-url')
-    response.headers.set('Feature-Policy', 'none')
-
-    return response
-
+    return await getAssetFromKV(event, options)
   } catch (e) {
     // if an error is thrown try to serve the asset at 404.html
     if (!DEBUG) {

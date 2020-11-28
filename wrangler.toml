@@ -6,4 +6,4 @@ route = "westsidelabs.io/*"
 zone_id = "a1c9425688a45401c7cdef1157fec073"
 
 [site]
-bucket = "./public"
+bucket = "./src/_site"

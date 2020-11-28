@@ -1,1 +1,4 @@
 dist
+.DS_Store
+jekyll-site/.jekyll-cache
+jekyll-site/_site
