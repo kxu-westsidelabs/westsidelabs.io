@@ -3,3 +3,4 @@ dist
 .cargo-ok
 jekyll-site/.jekyll-cache
 jekyll-site/_site
+*.swp
