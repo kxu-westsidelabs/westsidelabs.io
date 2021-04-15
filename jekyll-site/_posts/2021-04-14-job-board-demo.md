@@ -8,11 +8,9 @@ categories: demos
 published: true
 ---
 
+![Searching the job board](/assets/job-board.gif)
 
-<iframe style="width: 900px; height: 800px" src="https://kxu-westsidelabs.github.io/job-board-demo/" frameborder="0" allowfullscreen></iframe>
-
-
-[View on stand-alone site](https://kxu-westsidelabs.github.io/job-board-demo/)
+See the [live version](https://kxu-westsidelabs.github.io/job-board-demo/)
 
 ## Discussion
 
