@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Visualization: Californa Roadtrip 2021"
+title: "Data Viz: California Roadtrip 2021"
 author: Kevin Xu
 tags: mapbox, maps, demos
 date: 2020-04-15
