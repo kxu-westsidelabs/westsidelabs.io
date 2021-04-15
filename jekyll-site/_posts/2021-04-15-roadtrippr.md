@@ -8,8 +8,6 @@ categories: demos
 published: true
 ---
 
-# Roadtrippr
-
 ![Animated Roadtrip](/assets/roadtrippr.gif)
 
 See the [live version](https://kxu-westsidelabs.github.io/roadtrippr/)
